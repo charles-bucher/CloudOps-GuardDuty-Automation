@@ -1,0 +1,8 @@
+[
+  {
+    "Source": "custom.guardduty.simulation",
+    "DetailType": "GuardDuty Finding",
+    "Detail": "{\"type\":\"UnauthorizedAccess:EC2/SSHBruteForce\"}",
+    "EventBusName": "default"
+  }
+]
