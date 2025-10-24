@@ -14,7 +14,7 @@ Automated AWS GuardDuty Threat Simulation & Response — Terraform-based lab tha
 ![Initialization Screenshot](screenshots/01_init/Screenshot%202025-10-09%20111039.png)
 
 ### 3. Deployment
-![Deployed](screenshots/02_deploy/deployed.png)
+![[REMOVED]](screenshots/02_deploy/[REMOVED].png)
 ![GuardDuty Instance Running](screenshots/02_deploy/guardduty-instance-running.png)
 ![GuardDuty Running](screenshots/02_deploy/guardduty-running.png)
 ![Terraform Made](screenshots/02_deploy/terraform_made.png)
@@ -41,3 +41,18 @@ Automated AWS GuardDuty Threat Simulation & Response — Terraform-based lab tha
 5. Execute threat simulation scripts
 6. Review GuardDuty findings
 7. Run `terraform destroy` for cleanup
+## Lessons Learned
+- Always commit small changes frequently.
+- Document your code clearly.
+- Test before pushing.
+- Keep your branches organized.
+- Continuous learning is key!
+
+> NOTE: This project was [REMOVED] temporarily for demonstration purposes. No live endpoints exist.
+
+
+> NOTE: This project was  temporarily for demonstration purposes. No live endpoints exist.
+
+
+NOTE: This project was deployed temporarily for demonstration purposes and is no longer live.
+
