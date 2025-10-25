@@ -48,11 +48,9 @@ Automated AWS GuardDuty Threat Simulation & Response — Terraform-based lab tha
 - Keep your branches organized.
 - Continuous learning is key!
 
-> NOTE: This project was  temporarily for demonstration purposes. No live endpoints exist.
+> 
 
-> NOTE: This project was  temporarily for demonstration purposes. No live endpoints exist.
-
-NOTE: This project was  temporarily for demonstration purposes and is no longer live.
+> 
 
 # CloudOps-GuardDuty-Automation
 
