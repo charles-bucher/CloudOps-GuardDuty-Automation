@@ -1,6 +1,6 @@
-﻿# GuardDuty Threat Simulation & Response
+# GuardDuty Threat Simulation & Response
 
-Automated AWS GuardDuty Threat Simulation & Response â€” Terraform-based lab that deploys GuardDuty, simulates security findings, and triggers automated incident response workflows. Includes scripts, screenshots, and cleanup automation for cloud security practice and demonstrations.
+Automated AWS GuardDuty Threat Simulation & Response — Terraform-based lab that deploys GuardDuty, simulates security findings, and triggers automated incident response workflows. Includes scripts, screenshots, and cleanup automation for cloud security practice and demonstrations.
 
 ---
 
@@ -14,7 +14,7 @@ Automated AWS GuardDuty Threat Simulation & Response â€” Terraform-based la
 ![Initialization Screenshot](screenshots/01_init/Screenshot%202025-10-09%20111039.png)
 
 ### 3. Deployment
-![[REMOVED]](screenshots/02_deploy/[REMOVED].png)
+![](screenshots/02_deploy/.png)
 ![GuardDuty Instance Running](screenshots/02_deploy/guardduty-instance-running.png)
 ![GuardDuty Running](screenshots/02_deploy/guardduty-running.png)
 ![Terraform Made](screenshots/02_deploy/terraform_made.png)
@@ -48,57 +48,54 @@ Automated AWS GuardDuty Threat Simulation & Response â€” Terraform-based la
 - Keep your branches organized.
 - Continuous learning is key!
 
-> NOTE: This project was [REMOVED] temporarily for demonstration purposes. No live endpoints exist.
-
+> NOTE: This project was  temporarily for demonstration purposes. No live endpoints exist.
 
 > NOTE: This project was  temporarily for demonstration purposes. No live endpoints exist.
 
-
 NOTE: This project was  temporarily for demonstration purposes and is no longer live.
-
 
 # CloudOps-GuardDuty-Automation
 
-⚡ **Project Overview**  
+? **Project Overview**  
 This repository contains the CloudOps-GuardDuty-Automation project. All resources and scripts were built for learning, demonstration, and personal experimentation. Screenshots or examples may have been created, but this project is **not a live site**.
 
 **Disclaimer:**  
-> NOTE: This project was deployed temporarily for learning or demonstration purposes. No live site is currently available.
+> 
 
 ---
 
-## 🔗 Links
+## ?? Links
 
 - LinkedIn: [Charles Bucher](https://www.linkedin.com/in/charles-bucher85813)
 - Repository: [GitHub](https://github.com/charles-bucher/CloudOps-GuardDuty-Automation)
 
 ---
 
-## 🏗️ Features / Highlights
+## ??? Features / Highlights
 
-- Feature 1: Short description
-- Feature 2: Short description
-- Feature 3: Short description
-
----
-
-## 🛠️ Tech Stack
-
-- Tech 1
-- Tech 2
-- Tech 3
+- 
+- 
+- 
 
 ---
 
-## 🎓 Skills Demonstrated
+## ??? Tech Stack
 
-- Skill 1
-- Skill 2
-- Skill 3
+- 
+- 
+- 
 
 ---
 
-## 📋 Usage
+## ?? Skills Demonstrated
+
+- 
+- 
+- 
+
+---
+
+## ?? Usage
 
 1. Clone the repository:
 \\\ash
@@ -108,7 +105,7 @@ git clone https://github.com/charles-bucher/CloudOps-GuardDuty-Automation.git
 
 ---
 
-## 💼 Notes
+## ?? Notes
 
 - Educational/demo purposes only.  
 - Screenshots exist to show functionality or output.  
