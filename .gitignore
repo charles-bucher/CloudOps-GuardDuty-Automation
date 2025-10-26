@@ -1,0 +1,14 @@
+﻿# Windows
+Thumbs.db
+Desktop.ini
+
+# PowerShell / VSCode
+*.ps1xml
+*.psd1
+.vscode/
+
+# Node / Python / temp files
+node_modules/
+__pycache__/
+*.log
+*.tmp
