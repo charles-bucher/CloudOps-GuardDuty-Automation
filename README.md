@@ -2,11 +2,29 @@
 
 **Status**: Enabled GuardDuty | Generated test findings | Learning automation
 
+
+## 📦 Module Overview
+
+This repository follows a modular pipeline for GuardDuty integration and lifecycle management. Each folder represents a distinct phase in the workflow:
+
+| Module         | Description                        | Last Commit Message         | Last Commit Date |
+|----------------|------------------------------------|------------------------------|------------------|
+| `00_clone`     | Clone source and prepare assets     | Add GuardDuty screenshots    | 3 weeks ago      |
+| `01_init`      | Initialize environment and configs  | Add GuardDuty screenshots    | 3 weeks ago      |
+| `02_deploy`    | Deploy GuardDuty resources          | Add GuardDuty screenshots    | 3 weeks ago      |
+| `03_terraform` | Apply Terraform IaC for GuardDuty   | Add GuardDuty screenshots    | 3 weeks ago      |
+| `04_Destroy`   | Destroy resources and clean up      | *(Pending commit)*           | *(Pending)*      |
 ---
 
 ## What This Actually Is
 
 I'm learning AWS security monitoring by enabling GuardDuty and figuring out how it works. Right now it's mostly me clicking around the console and reading documentation—not automated threat response yet.
+
+
+
+## 📸 Screenshot Organization
+
+All screenshots are stored in root-level folders that match each phase of the GuardDuty workflow:
 
 ---
 
