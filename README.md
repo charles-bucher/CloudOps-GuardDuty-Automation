@@ -95,14 +95,18 @@ All screenshots are stored in root-level folders that match each phase of the Gu
 ## What's Actually in This Repo
 
 ```
+## What's Actually in This Repo
+
 cloudOps-guardDuty-automation/
-├── screenshots/             # GuardDuty console and findings examples
+├── 00_clone/       # Screenshots of cloning and asset prep
+├── 01_init/        # Screenshots of GuardDuty setup and config
+├── 02_deploy/      # Screenshots of resource deployment
+├── 03_terraform/   # Screenshots of Terraform integration
+├── 04_Destroy/     # Screenshots of teardown and cleanup
 ├── sample_findings.json     # Test findings I generated
 ├── eventbridge_rule.json    # Rule to catch GuardDuty alerts
 ├── sns_setup_notes.md       # How I configured notifications
 └── learning_notes.md        # My security research notes
-```
-
 ---
 
 ## The Plan (Not Done Yet)
