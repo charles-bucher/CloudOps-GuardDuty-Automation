@@ -1,14 +1,8 @@
-﻿# Windows
-Thumbs.db
-Desktop.ini
-
-# PowerShell / VSCode
-*.ps1xml
-*.psd1
-.vscode/
-
-# Node / Python / temp files
-node_modules/
-__pycache__/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.backup
 *.log
-*.tmp
+terraform.tfvars
+tfplan

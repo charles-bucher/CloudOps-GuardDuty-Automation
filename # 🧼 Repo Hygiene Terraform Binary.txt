@@ -1,0 +1,33 @@
+# 🧼 Repo Hygiene: Terraform Binary Cleanup
+
+This repo underwent a full history rewrite to remove oversized binaries and `.terraform` artifacts that were mistakenly committed during early development.
+
+## 🔍 What Was Removed
+
+- `.terraform/` directory (auto-generated, not meant for version control)
+- `terraform-provider-aws_v6.19.0_x5.exe` (813MB binary that exceeded GitHub’s 100MB limit)
+
+## 🛠️ How It Was Fixed
+
+- Used [`git filter-repo`](https://github.com/newren/git-filter-repo) to surgically remove the binary from all commits
+- Force-pushed the cleaned history to GitHub
+- Re-cloned the repo to verify the cleanup
+
+## 💡 Why This Matters
+
+- ✅ Keeps the repo lightweight and fast to clone
+- ✅ Prevents GitHub push errors
+- ✅ Aligns with Terraform best practices
+- ✅ Demonstrates real-world incident response and version control hygiene
+
+## 🧪 Reproducibility
+
+This repo now supports clean, reproducible Terraform workflows. All provider binaries and state artifacts are excluded from version control. See `.gitignore` for enforced exclusions.
+
+## 🧾 Related Commits
+
+- [`7691f69`](https://github.com/charles-bucher/cloudOps-guardDuty-automation/commit/7691f69): Final cleaned state after history rewrite
+
+---
+
+_This cleanup is part of a broader commitment to reproducible infrastructure, transparent incident response, and recruiter-facing proof of DevOps maturity._
