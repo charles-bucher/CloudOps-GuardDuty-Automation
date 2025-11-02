@@ -1,8 +1,34 @@
 # Terraform
 .terraform/
+.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
+*.tfvars
+*.tfplan
 *.backup
 *.log
-terraform.tfvars
-tfplan
+terraform.rc
+.terraformrc
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PowerShell / VSCode
+*.ps1xml
+*.psd1
+.vscode/
+
+# Node / Python / temp files
+node_modules/
+__pycache__/
+*.tmp
+
+# Repository analysis artifacts
+analyze_repo.py
+cloudOps-guardDuty-automation.git/
