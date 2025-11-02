@@ -2,7 +2,19 @@ resource "aws_s3_bucket" "site" {
   bucket = var.name
 }
 
-resource "aws_s3_bucket_acl" "site_acl" {
+resource "aws_s3_bucket_ownership_controls" "site_ownership" {
   bucket = aws_s3_bucket.site.id
-  acl    = "private"
+
+  rule {
+    object_ownership = "BucketOwnerEnforced"
+  }
+}
+
+resource "aws_s3_bucket_public_access_block" "site_public_access" {
+  bucket = aws_s3_bucket.site.id
+
+  block_public_acls       = true
+  block_public_policy     = true
+  ignore_public_acls      = true
+  restrict_public_buckets = true
 }
