@@ -25,7 +25,7 @@ variable "enable_kubernetes_protection" {
 variable "enable_malware_protection" {
   description = "Enable malware protection for EC2 instances"
   type        = bool
-  default     = false  # Can be expensive
+  default     = false # Can be expensive
 }
 
 variable "s3_bucket_arn" {

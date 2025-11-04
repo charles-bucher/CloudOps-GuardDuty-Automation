@@ -1,34 +1,36 @@
-# Terraform
+# Terraform files
 .terraform/
-.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
+.terraform.lock.hcl
+tfplan
 *.tfvars
-*.tfplan
-*.backup
-*.log
-terraform.rc
-.terraformrc
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-.terraform.tfstate.lock.info
+!terraform.tfvars.example
 
-# Windows
+# AWS credentials (NEVER commit)
+*.pem
+*.key
+*.credentials
+config.txt
+set-aws-env.ps1
+
+# OS files
+.DS_Store
 Thumbs.db
-Desktop.ini
+desktop.ini
 
-# PowerShell / VSCode
-*.ps1xml
-*.psd1
+# IDE files
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Node / Python / temp files
-node_modules/
-__pycache__/
-*.tmp
+# Logs
+*.log
+logs/
 
-# Repository analysis artifacts
-analyze_repo.py
-cloudOps-guardDuty-automation.git/
+# Archives
+*.zip
+*.tar.gz
+*.rar

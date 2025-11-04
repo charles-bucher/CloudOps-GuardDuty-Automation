@@ -30,10 +30,10 @@ resource "aws_guardduty_detector" "main" {
 
 # Export findings to S3
 resource "aws_guardduty_publishing_destination" "s3" {
-  detector_id     = aws_guardduty_detector.main.id
+  detector_id      = aws_guardduty_detector.main.id
   destination_arn  = var.s3_bucket_arn
   destination_type = "S3"
-  kms_key_arn     = var.kms_key_arn != null ? var.kms_key_arn : null
+  kms_key_arn      = var.kms_key_arn != null ? var.kms_key_arn : null
 
   depends_on = [aws_guardduty_detector.main]
 }
