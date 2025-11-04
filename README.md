@@ -1,59 +1,74 @@
-# GuardDuty Lab – AWS Security Monitoring
+🚀 CloudOps GuardDuty Automation – AWS Security Monitoring
 
-Hands-on lab to deploy AWS GuardDuty with Terraform and verify it’s running.
+[![Terraform](https://img.shields.io/badge/Terraform-1.6.0-blue)](https://www.terraform.io/) [![AWS](https://img.shields.io/badge/AWS-Cloud-orange)](https://aws.amazon.com/) [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]  
+
+Automate threat detection and monitoring with **AWS GuardDuty** using **Terraform**. This lab demonstrates **infrastructure as code**, proactive cloud security monitoring, and step-by-step observability setup.
 
 ---
 
-## 1️⃣ Clone Repository
+## 🔧 Prerequisites
 
-Clone the repository locally:
+- AWS account with permissions for GuardDuty and Terraform deployment  
+- Terraform installed  
+- Git installed  
+
+---
+
+## 📝 Step-by-Step Lab
+
+<details>
+<summary>Click to expand all steps</summary>
+
+### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/charles-bucher/guardduty_lab.git
-cd guardduty_lab
+git clone https://github.com/charles-bucher/cloudOps-guardDuty-automation.git
+cd cloudOps-guardDuty-automation
 Screenshot:
 
-
-Cloning the project locally.
-
 2️⃣ Verify Terraform Installation
-Check that Terraform is installed:
-
 bash
 Copy code
 terraform -version
 Screenshot:
 
-
-Terraform installed and ready.
-
 3️⃣ Terraform Plan
-Preview the resources Terraform will create:
-
 bash
 Copy code
 terraform plan
 Screenshot:
 
-
-Shows planned AWS resources before deployment.
-
 4️⃣ GuardDuty Instance Running
-Verify in AWS Console that the GuardDuty detector is active:
+Check the AWS Console for GuardDuty detector status.
 
 Screenshot:
 
-
-GuardDuty detector is running and monitoring AWS accounts.
-
-✅ Key Learning Outcomes
+</details>
+✅ Key Takeaways
 Clone and set up the repo locally
 
-Confirm Terraform is installed and working
+Verify Terraform environment and version
 
-Plan AWS infrastructure using Terraform
+Preview infrastructure deployment with Terraform
 
-Verify GuardDuty is actively monitoring
+Confirm GuardDuty monitoring is active
 
+💡 About
+Automates threat detection and incident response using AWS GuardDuty, Terraform, and CloudWatch. Great for hands-on learning of cloud security observability and DevSecOps practices.
 
+GitHub Repo: cloudOps-guardDuty-automation
+
+Topics: automation, monitoring, terraform, incident-response, cloudwatch, devsecops, cloud-security, aws-guardduty
+
+🔗 Resources & References
+Terraform Docs
+
+AWS GuardDuty
+
+CloudOps Automation Guide
+
+yaml
+Copy code
+
+---
 
