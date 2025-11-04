@@ -1,13 +1,3 @@
-# 🚀 CloudOps GuardDuty Automation – AWS Security Monitoring
-
-[![Terraform](https://img.shields.io/badge/Terraform-1.6.0-blue)](https://www.terraform.io/) 
-[![AWS](https://img.shields.io/badge/AWS-Cloud-orange)](https://aws.amazon.com/) 
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]  
-
-Automate **threat detection** and **monitoring** with **AWS GuardDuty** using **Terraform**.  
-Hands-on lab for **Infrastructure as Code (IaC)**, cloud security monitoring, and observability.
-
-Screenshots 
 
 # 🚀 CloudOps GuardDuty Automation – AWS Security Monitoring
 
@@ -17,6 +7,35 @@ Screenshots
 
 Automate **threat detection** and **monitoring** with **AWS GuardDuty** using **Terraform**.  
 Hands-on lab for **Infrastructure as Code (IaC)**, cloud security monitoring, and observability.
+
+Screenshots
+
+# 🚀 CloudOps GuardDuty Automation – AWS Security Monitoring
+
+[![Terraform](https://img.shields.io/badge/Terraform-1.6.0-blue)](https://www.terraform.io/) 
+[![AWS](https://img.shields.io/badge/AWS-Cloud-orange)](https://aws.amazon.com/) 
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]  
+
+Automate **threat detection** and **monitoring** with **AWS GuardDuty** using **Terraform**.  
+Hands-on lab for **Infrastructure as Code (IaC)**, cloud security monitoring, and observability.
+
+---
+
+## 🔧 Prerequisites
+
+- AWS account with GuardDuty & Terraform permissions  
+- Terraform installed  
+- Git installed  
+
+---
+
+## 📝 Quick Lab Steps
+
+1️⃣ **Clone Repository**  
+```bash
+git clone https://github.com/charles-bucher/cloudOps-guardDuty-automation.git
+cd cloudOps-guardDuty-automation
+
 
 ---
 
