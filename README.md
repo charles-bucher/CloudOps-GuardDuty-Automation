@@ -1,4 +1,4 @@
-🚀 CloudOps GuardDuty Automation – AWS Security Monitoring
+# 🚀 CloudOps GuardDuty Automation – AWS Security Monitoring
 
 [![Terraform](https://img.shields.io/badge/Terraform-1.6.0-blue)](https://www.terraform.io/) [![AWS](https://img.shields.io/badge/AWS-Cloud-orange)](https://aws.amazon.com/) [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]  
 
@@ -54,7 +54,7 @@ Preview infrastructure deployment with Terraform
 Confirm GuardDuty monitoring is active
 
 💡 About
-Automates threat detection and incident response using AWS GuardDuty, Terraform, and CloudWatch. Great for hands-on learning of cloud security observability and DevSecOps practices.
+Automates threat detection and incident response using AWS GuardDuty, Terraform, and CloudWatch. Perfect for hands-on learning of cloud security observability and DevSecOps practices.
 
 GitHub Repo: cloudOps-guardDuty-automation
 
@@ -69,6 +69,3 @@ CloudOps Automation Guide
 
 yaml
 Copy code
-
----
-
