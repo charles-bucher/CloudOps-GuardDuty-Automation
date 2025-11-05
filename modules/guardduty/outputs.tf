@@ -42,7 +42,7 @@ output "sms_subscription_arn" {
   value       = var.alert_phone != "" ? aws_sns_topic_subscription.guardduty_sms[0].arn : null
 }
 
-output "publishing_destination_arn" {
-  description = "ARN of S3 publishing destination"
-  value       = aws_guardduty_publishing_destination.s3.destination_arn
-}
+# output "publishing_destination_arn" {
+#   description = "ARN of S3 publishing destination"
+#   value       = aws_guardduty_publishing_destination.s3.destination_arn
+# }

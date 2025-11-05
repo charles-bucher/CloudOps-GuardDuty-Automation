@@ -126,6 +126,31 @@ resource "aws_cloudwatch_log_group" "guardduty_events" {
 }
 
 # ==============================================
+# CloudWatch Logs Resource Policy
+# ==============================================
+
+resource "aws_cloudwatch_log_resource_policy" "guardduty_events" {
+  policy_name = "${var.name}-guardduty-events-policy"
+
+  policy_document = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Effect = "Allow"
+        Principal = {
+          Service = "events.amazonaws.com"
+        }
+        Action = [
+          "logs:CreateLogStream",
+          "logs:PutLogEvents"
+        ]
+        Resource = "${aws_cloudwatch_log_group.guardduty_events.arn}:*"
+      }
+    ]
+  })
+}
+
+# ==============================================
 # EventBridge Rule for Medium Severity (Optional)
 # ==============================================
 
@@ -157,6 +182,7 @@ resource "aws_cloudwatch_event_target" "guardduty_logs" {
   rule      = aws_cloudwatch_event_rule.guardduty_medium_severity[0].name
   target_id = "SendToCloudWatchLogs"
   arn       = aws_cloudwatch_log_group.guardduty_events.arn
+  role_arn  = aws_iam_role.eventbridge_logs[0].arn
 }
 
 # ==============================================

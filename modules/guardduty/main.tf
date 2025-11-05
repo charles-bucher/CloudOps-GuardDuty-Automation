@@ -33,7 +33,6 @@ resource "aws_guardduty_publishing_destination" "s3" {
   detector_id      = aws_guardduty_detector.main.id
   destination_arn  = var.s3_bucket_arn
   destination_type = "S3"
-  kms_key_arn      = var.kms_key_arn != null ? var.kms_key_arn : null
 
   depends_on = [aws_guardduty_detector.main]
 }
@@ -163,7 +162,6 @@ resource "aws_iam_role" "guardduty_lambda" {
   })
 
   tags = {
-    Name        = "${var.name}-lambda-role"
     Name        = "${var.name}-lambda-role"
     Environment = var.environment
     ManagedBy   = "Terraform"
