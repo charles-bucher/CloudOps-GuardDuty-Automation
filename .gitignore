@@ -34,3 +34,16 @@ logs/
 *.zip
 *.tar.gz
 *.rar
+
+# Terraform sensitive files
+terraform.tfstate*
+terraform.tfvars
+*.tfvars
+!terraform.tfvars.example
+tfplan
+FETCH_HEAD
+config.txt
+.terraform/
+*.swp
+*.swo
+*~
