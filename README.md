@@ -69,17 +69,3 @@ Made  by Charles Bucher
 markdown
 Copy code
 
----
-
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check importan
