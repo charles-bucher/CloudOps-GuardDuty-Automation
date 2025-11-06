@@ -3,6 +3,9 @@
 Terraform module for AWS GuardDuty automation.  
 Built for reproducibility, modular scaling, and real-world support visibility.
 
+[![Terraform](https://img.shields.io/badge/Terraform-1.5.8-blue?logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+
 ---
 
 ## 📌 Highlights
@@ -17,17 +20,28 @@ Built for reproducibility, modular scaling, and real-world support visibility.
 
 ## 🧱 Architecture Overview
 
+GuardDuty → EventBridge → SNS → Email/SMS
+↘︎ S3 Export
+
+php-template
+Copy code
 
 ---
 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/clone_repo.png" alt="Clone Repo" width="450"/>
-  <img src="screenshots/terraform_installed.png" alt="Terraform Installed" width="450"/>
-  <img src="screenshots/guardduty_running.png" alt="GuardDuty Running" width="450"/>
-  <img src="screenshots/tf_plan.png" alt="Terraform Plan Screenshot" width="450"/>
-  <img src="screenshots/pushed_screenshot.png" alt="GuardDuty Deployment Screenshot" width="450"/>
+  <img src="screenshots/clone_repo.png" alt="Clone Repo" width="400"/>
+  <img src="screenshots/terraform_installed.png" alt="Terraform Installed" width="400"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/guardduty_running.png" alt="GuardDuty Running" width="400"/>
+  <img src="screenshots/tf_plan.png" alt="Terraform Plan Screenshot" width="400"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/pushed_screenshot.png" alt="GuardDuty Deployment Screenshot" width="400"/>
 </p>
 
 ---
@@ -38,11 +52,34 @@ Built for reproducibility, modular scaling, and real-world support visibility.
 terraform init
 terraform plan -var-file="terraform.tfvars"
 terraform apply -var-file="terraform.tfvars"
+💡 Notes
+Designed for modular scaling and easy real-world deployment
 
-✅ Improvements here:  
-1. Added the two new screenshots (`tf_plan.png` and `pushed_screenshot.png`) to the gallery.  
-2. Cleaned spacing and headers for readability.  
-3. Used `<p align="center">` for a neat, centered gallery.  
-4. Minor markdown polish so it looks professional on GitHub.  
+All outputs and variables are tagged and documented for easy integration
 
-If you want, I can write the **exact push commands** so you can commit and push this polished README in one go. Do you want me to do that?
+Optional IAM roles allow customized Lambda remediation
+
+🔗 Links
+GitHub Repo
+
+Terraform Docs
+
+Made  by Charles Bucher
+
+markdown
+Copy code
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+ChatGPT can make mistakes. Check importan
