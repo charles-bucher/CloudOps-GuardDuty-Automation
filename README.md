@@ -1,5 +1,6 @@
 # 🛡️ cloudOps-guardDuty-automation
 
+
 Terraform module for AWS GuardDuty automation.  
 Built for reproducibility, modular scaling, and real-world support visibility.
 
