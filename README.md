@@ -1,72 +1,18 @@
-# 🛡️ cloudOps-guardDuty-automation
+# 📸 Project Screenshots
 
-
-Terraform module for AWS GuardDuty automation.  
-Built for reproducibility, modular scaling, and real-world support visibility.
-
-[![Terraform](https://img.shields.io/badge/Terraform-1.5.8-blue?logo=terraform&logoColor=white)](https://www.terraform.io/)
-[![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
-
----
-
-## 📌 Highlights
-- 🔐 GuardDuty detector with S3, malware, and optional Kubernetes protection  
-- 📡 EventBridge filtering by severity  
-- 📣 SNS alerting via email/SMS  
-- 📦 Secure S3 bucket with encryption, lifecycle, and versioning  
-- 🧠 Optional IAM role for Lambda remediation  
-- 🧱 Modular variables, outputs, and tagging  
-
----
-
-## 🧱 Architecture Overview
-
-GuardDuty → EventBridge → SNS → Email/SMS
-↘︎ S3 Export
-
-php-template
-Copy code
-
----
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="screenshots/clone_repo.png" alt="Clone Repo" width="400"/>
-  <img src="screenshots/terraform_installed.png" alt="Terraform Installed" width="400"/>
-</p>
-
-<p align="center">
-  <img src="screenshots/guardduty_running.png" alt="GuardDuty Running" width="400"/>
-  <img src="screenshots/tf_plan.png" alt="Terraform Plan Screenshot" width="400"/>
-</p>
-
-<p align="center">
-  <img src="screenshots/pushed_screenshot.png" alt="GuardDuty Deployment Screenshot" width="400"/>
-</p>
-
----
-
-## ⚙️ Setup
-
-```bash
-terraform init
-terraform plan -var-file="terraform.tfvars"
-terraform apply -var-file="terraform.tfvars"
-💡 Notes
-Designed for modular scaling and easy real-world deployment
-
-All outputs and variables are tagged and documented for easy integration
-
-Optional IAM roles allow customized Lambda remediation
-
-🔗 Links
-GitHub Repo
-
-Terraform Docs
-
-Made  by Charles Bucher
-
-markdown
-Copy code
-
+## screenshots
+![00.png](screenshots/00.png)
+![01.png](screenshots/01.png)
+![02.png](screenshots/02.png)
+![03.png](screenshots/03.png)
+![04.png](screenshots/04.png)
+![05.png](screenshots/05.png)
+![09.src](screenshots/09.src)
+![10.png](screenshots/10.png)
+![11.png](screenshots/11.png)
+![12.png](screenshots/12.png)
+![13.png](screenshots/13.png)
+![14.png](screenshots/14.png)
+![Screenshot](screenshots/Screenshot)
+![2025-10-09](screenshots/2025-10-09)
+![111039.png](screenshots/111039.png)
