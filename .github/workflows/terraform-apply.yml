@@ -1,0 +1,29 @@
+name: Terraform Apply GuardDuty Lab
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  terraform:
+    name: Terraform Apply GuardDuty Lab
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 1.6.0
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform Plan
+        run: terraform plan
+
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
