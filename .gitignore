@@ -47,3 +47,25 @@ config.txt
 *.swp
 *.swo
 *~
+
+# Terraform sensitive files - NEVER COMMIT THESE
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.tfvars
+!terraform.tfvars.example
+tfplan
+*.tfplan
+
+# Git internals
+FETCH_HEAD
+ORIG_HEAD
+
+# Config files that might contain secrets
+config.txt
+*.config
+
+# Scripts that might contain credentials
+fix_*.sh
